@@ -1,0 +1,71 @@
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<title>自带Ftp Server如何使用</title>
+<base target="_blank">
+<link href="css.css" rel="stylesheet" type="text/css" />
+
+	<div class="post">
+	
+	<div class="content" style="padding-top:2px"><a href="http://www.phpstudy.net/">phpStudy</a> &raquo; <a href="http://www.phpstudy.net/php/">PHP教程</a> &raquo; phpStudy自带Ftp Server如何使用</div>
+	</div>
+	<div class="post">
+	
+	<h3 class="title">phpStudy自带Ftp Server如何使用</h3>
+	
+	<div class="content">
+	<p>
+	phpStudy自带Ftp Server如何使用
+</p>
+<p>
+	用户设置，FTP设置，IP限制等都在菜单设置下。
+</p>
+<img alt="" src="http://www.phpstudy.net/img/image/20131218145845_57752.jpg" /> 
+<p>
+	<br />
+</p>
+<p>
+	用户设置也很简单，看图就能明白。
+</p>
+<p>
+	<img alt="" src="http://www.phpstudy.net/img/image/20131218145854_45620.jpg" /> 
+</p>
+<p>
+	<span style="white-space:nowrap;">如果无法连接ftp服务器，请检查服务器上的防火墙。</span><br />
+<span style="white-space:nowrap;">如果在wiin2003/2008 已经安装FTP服务器组件,</span> 
+</p>
+<p>
+	<span style="white-space:nowrap;">请卸载FTP服务器组件或改端口后再运行phpStudy自带的ftp server。</span> 
+</p>
+<p>
+	<span style="white-space:nowrap;">＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝</span> 
+</p>
+<p>
+	如果出现错误
+</p>
+<p>
+	<span style="color:#45678D;font-family:Verdana, Tahoma, Arial;line-height:24px;white-space:normal;">[右] 数据 Socket 错误: 连接超时</span><br style="color:#45678D;font-family:Verdana, Tahoma, Arial;line-height:24px;white-space:normal;" />
+<span style="color:#45678D;font-family:Verdana, Tahoma, Arial;line-height:24px;white-space:normal;">[右] 列表错误</span><br style="color:#45678D;font-family:Verdana, Tahoma, Arial;line-height:24px;white-space:normal;" />
+<span style="color:#45678D;font-family:Verdana, Tahoma, Arial;line-height:24px;white-space:normal;">[右] PASV 模式失败, 尝试 PORT&nbsp; 模式。</span> 
+</p>
+<p>
+	<span style="color:#000000;font-family:Verdana, Tahoma, Arial;line-height:24px;white-space:normal;">被动模式是先从21端口向服务器发送请求，然后服务器开放空闲端口来进行连接。而这个PASV开启的端口，因为没有在防火墙中打开</span><span style="color:#000000;">。</span> 
+</p>
+<p>
+	<span style="color:#000000;font-family:Verdana, Tahoma, Arial;line-height:24px;white-space:normal;">为了设置方便，这个端口范围可以设置为同样的。然后在防火墙中开启对应的端口即可。</span><span style="color:#000000;"><span style="color:#E53333;">同时将ftp客户端设为主动模式</span>。</span> 
+</p>
+<p>
+	<img src="http://www.phpstudy.net/img/image/20131221133126_88500.jpg" alt="" /><span style="background-color:#000000;"></span> 
+</p>
+<p>
+	<span style="white-space:normal;background-color:#FFFFFF;color:#E53333;">ftp客户端设为主动模式</span> 
+</p>
+<p>
+	<img src="http://www.phpstudy.net/img/image/20131221133214_52423.jpg" alt="" style="line-height:1.5;" /> 
+</p>
+<br>
+<div class="fixed"></div>
+</div>
+
+		
+	</div>
+
+	
